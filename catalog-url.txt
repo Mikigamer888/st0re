@@ -1,1 +1,1 @@
-https://modes-expansion-cherry-expense.trycloudflare.com
+https://modes-expansion-cherry-expense.trycloudflare.com/catalog.json
