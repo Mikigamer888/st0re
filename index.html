@@ -49,9 +49,9 @@
         <h1>Miki Store</h1>
         <p>Redirecting to the actual server, because i can :P</p>
         <div class="loader" id="loader"></div>
-        <p id="status">Fetching Sovereign URL...</p>
+        <p id="status">Fetching the URL...</p>
         <div class="footer">
-            Not moving at Sonic speed? <a id="manualLink" href="#">Click here</a>
+            Waithing for too long? <a id="manualLink" href="#">Click here</a>
         </div>
     </div>
 
@@ -82,7 +82,7 @@
                 }
             } catch (error) {
                 console.error(error);
-                statusElement.innerText = "Error 40: Could not connect to Sovereign Hub.";
+                statusElement.innerText = "Could not connect.";
                 statusElement.style.color = "#ff4444";
             }
         }
